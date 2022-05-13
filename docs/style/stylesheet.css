@@ -1,0 +1,42 @@
+body{
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    background-color: #bbc5c9;
+}
+
+h1
+{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+
+}
+
+.Readings
+{
+    padding: 10pt;
+    overflow-x: 0;
+    width: 50%;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.Readings h1{
+
+    position: relative;
+    font-size: 50pt;
+    left: 40pt;
+}
+
+
+.Readings div
+{
+
+    border-style: solid;
+    border-width: 5px;
+    position: relative;
+    margin: 2%;
+    height: 80pt;
+    width: 80pt;
+
+}
+
