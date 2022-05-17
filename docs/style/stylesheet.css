@@ -1,42 +1,102 @@
 body{
     font-family: 'Heebo', sans-serif;
     font-family: 'Roboto Slab', serif;
-    background-color: #bbc5c9;
+    background-color: #dadfe6;
+    margin-top: 20pt;
 }
 
 h1
 {
     font-family: 'Heebo', sans-serif;
-    font-weight: 800;
+    font-weight: 700;
+    font-size: 50pt;
 
 }
 
-.Readings
+.container section
 {
-    padding: 10pt;
-    overflow-x: 0;
-    width: 50%;
+    /* overflow-x: 0; */
     border-style: solid;
     border-width: 5px;
+    max-width: 800pt;    
 }
 
-.Readings h1{
+.container h1{
 
-    position: relative;
     font-size: 50pt;
     left: 40pt;
 }
 
 
-.Readings div
+
+
+
+.container div
 {
+    min-width: 110pt;
+    min-height: 110pt;
+    max-width: 700pt;
 
     border-style: solid;
-    border-width: 5px;
+    border-width: 1px;
     position: relative;
-    margin: 2%;
-    height: 80pt;
-    width: 80pt;
+    text-align: center;
 
 }
+
+
+.container section
+{
+    min-width: 100pt;
+    max-width: 700pt;
+    border-width: 5px;
+    position: relative;
+
+
+}
+
+header{
+
+    padding-bottom: 10%;
+
+
+}
+
+iframe
+{
+width: 400pt;
+max-width: 100%;
+height: 100%;
+display: block;
+position: relative;
+
+/* transform-origin: -50%; */
+}
+
+
+.graphs div
+{
+
+    height: 200pt;
+    display:flexbox;
+    position: relative;
+    margin-top: 15pt;
+    margin-bottom: 15pt;
+    border-style: solid;
+    border-width: 3px;
+    max-width: 350pt;
+
+
+
+
+    /* min-height: 100%;
+    min-width: 100%; */
+    /* position: relative; */
+}
+
+footer
+{
+    height: 300pt;
+}
+
 
